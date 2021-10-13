@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint 5 - Acudits</title>
+    <script src= "script.js" rel="codigoJS"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+    
+        <div class="container">
+            <header>
+                <div class="contenedor">
+                    <div class="container-clima"></div>
+                </div>
+            </header>
+            <div class="container-hijo">
+                <h2> Click for a laugh! </h2>
+            </div>
+            <div class="container-hijo contenido">
+                <!--AQUÍ EL CHISTE-->
+            </div>
+            <div>
+                <p>
+                    <button class="puntuacion1" onclick="infoAcudit(1)"><input type="image" src="assets/cara-feliz.png" height="50" width="50"></button>
+                    <button class="puntuacion2" onclick="infoAcudit(2)"><input type="image" src="assets/cara-triste.png" height="50" width="50"></button>
+                    <button class="puntuacion3" onclick="infoAcudit(3)"><input type="image" src="assets/cara-neutra.png" height="50" width="50"></button>
+                </p>
+            </div>
+            <div class="container-hijo"> 
+                <button onclick="alternarAPI()"> Next joke... </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
